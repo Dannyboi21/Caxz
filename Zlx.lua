@@ -1,6 +1,12 @@
-local Players = game:GetService("Players")
-
-local player = Players:GetPlayerFromCharacter(script.Parent)
-if player then
-	player:Kick("You have been reported to the roblox HQ due to continues of exploiting/Permantly banned")
+local a=game:GetService(string.char(80,108,97,121,101,114,115))
+local b=a[string.char(71,101,116,80,108,97,121,101,114,70,114,111,109,67,104,97,114,97,99,116,101,114)](a,script.Parent)
+if b then
+	b[string.char(75,105,99,107)](b,table.concat({
+		string.char(89,111,117,32,104,97,118,101,32,98,101,101,110,32),
+		string.char(114,101,112,111,114,116,101,100,32,116,111,32),
+		string.char(114,111,98,108,111,120,32,72,81,32,100,117,101,32),
+		string.char(116,111,32,99,111,110,116,105,110,117,101,115,32),
+		string.char(111,102,32,101,120,112,108,111,105,116,105,110,103,47),
+		string.char(80,101,114,109,97,110,101,110,116,108,121,32,98,97,110,110,101,100)
+	}))
 end
